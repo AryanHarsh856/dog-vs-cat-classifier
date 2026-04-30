@@ -1,0 +1,79 @@
+# 🐶🐱 Dog vs Cat Classifier (Deep Learning Project)
+
+This is a deep learning project that classifies images of dogs and cats using **Transfer Learning (MobileNetV2)** with TensorFlow.
+
+---
+
+## 🚀 Project Overview
+
+The goal of this project is to build an image classification model that can distinguish between cats and dogs using a Convolutional Neural Network (CNN) based on a pre-trained MobileNetV2 model.
+
+---
+
+## 🧠 Tech Stack
+
+- Python 🐍
+- TensorFlow / Keras
+- TensorFlow Datasets (TFDS)
+- NumPy
+- Matplotlib
+- MobileNetV2 (Transfer Learning)
+
+---
+
+## 📊 Dataset
+
+- Dataset: `cats_vs_dogs` from TensorFlow Datasets
+- Images: Dogs 🐶 and Cats 🐱
+- Image size: 128 x 128
+- Total used: 2000 images (for training + testing split)
+
+---
+
+## 🏗️ Model Architecture
+
+- Pretrained Model: MobileNetV2 (ImageNet weights)
+- Frozen base layers (no retraining)
+- Custom layers added:
+  - Global Average Pooling
+  - Dense layer (128 neurons, ReLU)
+  - Dropout (0.3)
+  - Output layer (Sigmoid activation)
+
+---
+
+## ⚙️ Training Details
+
+- Optimizer: Adam
+- Loss Function: Binary Crossentropy
+- Epochs: 5
+- Batch Size: 32
+- Validation Split included
+
+---
+
+## 📁 Project Structure
+dog-vs-cat-classifier/
+│
+├── train.py # Model training script
+├── predict.py # Image prediction script
+├── requirements.txt # Required libraries
+├── README.md # Project documentation
+└── model/
+└── dog_cat_model.h5 # Saved trained model
+
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+
+TRAIN THE MODEL
+python train.py
+
+
+Test the model
+python predict.py
