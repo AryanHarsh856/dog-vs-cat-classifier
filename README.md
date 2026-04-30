@@ -53,6 +53,9 @@ The goal of this project is to build an image classification model that can dist
 
 ---
 ## 📁 Project Structure
+
+---
+
 dog-vs-cat-classifier/
 
 ├── train.py # Training script
@@ -61,6 +64,9 @@ dog-vs-cat-classifier/
 ├── README.md # Documentation
 └── model/
 └── dog_cat_model.h5 # Trained model
+
+---
+
 ---
 
 ## ▶️ How to Run the Project
@@ -89,14 +95,17 @@ model/dog_cat_model.h5
 ### 🐶 Dog Prediction
 ![Dog](https://raw.githubusercontent.com/AryanHarsh856/dog-vs-cat-classifier/main/assets/dog.png)
 
+---
+
 ### 🐱 Cat Prediction
 ![Cat](https://raw.githubusercontent.com/AryanHarsh856/dog-vs-cat-classifier/main/assets/cat.png)
+
+---
 
 ### 📊 Training Output
 ![Training](https://raw.githubusercontent.com/AryanHarsh856/dog-vs-cat-classifier/main/assets/training.png)
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-ARYAN HARSH
-
+**Aryan Harsh**
