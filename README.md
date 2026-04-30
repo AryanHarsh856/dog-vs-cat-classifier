@@ -52,7 +52,6 @@ The goal of this project is to build an image classification model that can dist
 - Validation Split included
 
 ---
-
 ## 📁 Project Structure
 dog-vs-cat-classifier/
 │
@@ -60,9 +59,9 @@ dog-vs-cat-classifier/
 ├── predict.py # Prediction script
 ├── requirements.txt # Dependencies
 ├── README.md # Documentation
+│
 └── model/
 └── dog_cat_model.h5 # Trained model
-
 
 ---
 
@@ -91,14 +90,13 @@ model/dog_cat_model.h5
 ## 📸 Results
 
 ### 🐶 Dog Prediction
-![Dog](assets/dog.png)
+![Dog](assets/dog.png?raw=true)
 
 ### 🐱 Cat Prediction
-![Cat](assets/cat.png)
+![Cat](assets/cat.png?raw=true)
 
 ### 📊 Training Output
-![Training](assets/training.png)
-
+![Training](assets/training.png?raw=true)
 👨‍💻 Author
 
 ARYAN HARSH
