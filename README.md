@@ -1,3 +1,4 @@
+
 # 🐶🐱 Dog vs Cat Classifier (Deep Learning Project)
 
 This is a deep learning project that classifies images of dogs and cats using **Transfer Learning (MobileNetV2)** with TensorFlow.
@@ -55,12 +56,12 @@ The goal of this project is to build an image classification model that can dist
 ## 📁 Project Structure
 dog-vs-cat-classifier/
 │
-├── train.py # Model training script
-├── predict.py # Image prediction script
-├── requirements.txt # Required libraries
-├── README.md # Project documentation
+├── train.py # Training script
+├── predict.py # Prediction script
+├── requirements.txt # Dependencies
+├── README.md # Documentation
 └── model/
-└── dog_cat_model.h5 # Saved trained model
+└── dog_cat_model.h5 # Trained model
 
 
 ---
@@ -71,9 +72,34 @@ dog-vs-cat-classifier/
 ```bash
 pip install -r requirements.txt
 
-TRAIN THE MODEL
+2️⃣ Train the model
+
 python train.py
 
-
-Test the model
+3️⃣ Run predictions
 python predict.py
+
+💾 Model Output
+
+After training, the model will be saved at:
+
+model/dog_cat_model.h5
+
+
+
+📌 Results
+## 📸 Results
+
+### 🐶 Dog Prediction
+![Dog](assets/dog.png)
+
+### 🐱 Cat Prediction
+![Cat](assets/cat.png)
+
+### 📊 Training Output
+![Training](assets/training.png)
+
+👨‍💻 Author
+
+ARYAN HARSH
+
