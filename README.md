@@ -90,20 +90,20 @@ model/dog_cat_model.h5
 
 
 
-## 📸 Results
+## Results
 
-### 🐶 Dog Prediction
-![Dog](https://raw.githubusercontent.com/AryanHarsh856/dog-vs-cat-classifier/main/assets/dog.png)
-
----
-
-### 🐱 Cat Prediction
-![Cat](https://raw.githubusercontent.com/AryanHarsh856/dog-vs-cat-classifier/main/assets/cat.png)
+### Dog Prediction
+![Dog](assets/dog.png)
 
 ---
 
-### 📊 Training Output
-![Training](https://raw.githubusercontent.com/AryanHarsh856/dog-vs-cat-classifier/main/assets/training.png)
+### Cat Prediction
+![Cat](assets/cat.png)
+
+---
+
+### Training Output
+![Training](assets/training.png)
 
 
 ## 👨‍💻 Author
