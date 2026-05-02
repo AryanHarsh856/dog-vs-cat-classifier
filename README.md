@@ -86,9 +86,7 @@ python predict.py
 
 After training, the model will be saved at:
 
-model/dog_cat_model.h5
-
-
+`model/dog_cat_model.h5`
 
 ## Results
 
